@@ -11,4 +11,10 @@ public class BoardController {
     public String boardAll() {
         return "board";
     }
+
+
+    @GetMapping("/add")
+    public String boardAdd() {
+        return "boardAdd";
+    }
 }

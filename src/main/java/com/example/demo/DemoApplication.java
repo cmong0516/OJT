@@ -14,3 +14,7 @@ public class DemoApplication {
 	}
 
 }
+
+
+// 회원정보 수정 , 탈퇴
+// 게시글 등록 수정 삭제 (작성자만)
