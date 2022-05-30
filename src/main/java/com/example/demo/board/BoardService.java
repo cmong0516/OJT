@@ -20,9 +20,10 @@ public class BoardService {
     }
 
 
-    public void delete(Board board,String userId) {
+    public Board delete(Board board, String userId) {
         if (userRepository.findByUserId(userId).getUserId() == board.getUser().getUserId()) {
             boardRepository.delete(board);
         }
+        return boardRepository.delete(board);
     }
 }
